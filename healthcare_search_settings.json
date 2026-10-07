@@ -8,12 +8,17 @@
     "normalized",
     "canonical_ids",
     "canonical_names",
+    "primary_canonical_id",
+    "primary_canonical_name",
     "departments",
     "source_kinds",
     "fragment_kinds",
     "canonical_count",
     "word_count",
     "priority",
+    "exact_canonical_match",
+    "is_heading_keyword",
+    "heading_types",
     "active",
     "source",
     "kind"
@@ -23,7 +28,10 @@
     "departments",
     "source_kinds",
     "fragment_kinds",
-    "kind"
+    "kind",
+    "exact_canonical_match",
+    "is_heading_keyword",
+    "heading_types"
   ],
   "sortableAttributes": [
     "priority",
@@ -32,8 +40,8 @@
   ],
   "rankingRules": [
     "words",
-    "typo",
     "exactness",
+    "typo",
     "priority:desc",
     "attribute",
     "proximity"
